@@ -5,7 +5,7 @@ const App = () => {
   return(
   <View style= {styles.viewTop}>
     <View style={styles.view} >
-    <Text style={styles.text} >ما تبطاش</Text>
+    <Text style={styles.text} >#ما_تبطاش</Text>
     </View>
   </View>
   );
@@ -24,7 +24,7 @@ const styles = StyleSheet.create ({
     alignItems: 'center'  
   },
   text: {
-    fontSize: 25,
+    fontSize: 35,
     color: 'white'
   }
 
